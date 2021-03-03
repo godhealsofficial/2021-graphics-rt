@@ -1,0 +1,5 @@
+# ninja log v5
+11	332	636504290	CMakeFiles/rt_sample_new.dir/Geometry.cpp.obj	f33bbb3c8bee3b3f
+7	335	636504290	CMakeFiles/rt_sample_new.dir/Material.cpp.obj	712b0d0b41bcfad
+15	337	636504290	CMakeFiles/rt_sample_new.dir/RayTracer.cpp.obj	c93fd08c7d2105a7
+20	670	636504291	CMakeFiles/rt_sample_new.dir/main.cpp.obj	c58178c3effdfc9c
