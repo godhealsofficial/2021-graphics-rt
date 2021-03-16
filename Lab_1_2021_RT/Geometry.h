@@ -31,4 +31,19 @@ private:
   float3 normal;
 };
 
+//Сфера
+class Sphere : public GeoObject
+{
+public:
+	Sphere(const float3 &a_center, const float3 &a_r, Material* a_m) : GeoObject(a_m), center(a_center), r(a_r) {} //& для оптимизации, чтобы копировал 1 раз, а не 2
+	~Sphere() = default;
+
+	bool Intersect(const Ray & ray, float t_min, float t_max, SurfHit & surf) const override; //Нужно ли менять?
+
+private:
+	float3 center,r;
+};
+
+
+
 #endif //RT_SAMPLE_NEW_GEOMETRY_H
