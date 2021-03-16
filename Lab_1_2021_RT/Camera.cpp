@@ -34,10 +34,21 @@ Camera::Camera(float3 a_eye, float3 a_look_at, float3 a_up, float a_vfov, float 
 Ray Camera::genRay(float w, float h, float x, float y) const
 {
    //прописать генерацию луча, выходящего из камеры
+    float3 origin = eye;
+    float3 dir;
+    dir.x = x + 0.5f - (w / 2.0f);  //луч генерируется через центр пикселя
+    dir.y = y + 0.5f - (h / 3.0f);  //3.0f -поплавок (плавующая точка) для повышения качества
+    dir.z = -w / tan(fov / 2.0f);
+
+    return Ray(origin, normalize(dir));
 }
 
 ///////////////////////////////////////////////////
 
+///////////////////////////////////////Почитать про перегрузки///////////////////////////////////////////////////////
+//
+//
+//
 Film::Film()
 {
   h = 480;
@@ -54,11 +65,14 @@ Film::Film(unsigned int a_w, unsigned int a_h, int a_num_samples, float a_gamma)
   pixels.assign(w * h, HydraLiteMath::float3(0.0f, 0.0f, 0.0f));
 }
 
-
 Film::~Film()
 {
   pixels.clear();
 }
+//
+//
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 void Film::SaveImagePPM(const std::string &filename)
 {

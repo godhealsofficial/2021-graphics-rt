@@ -3,6 +3,7 @@
 	{
 		"generator" : 
 		{
+			"multiConfig" : false,
 			"name" : "Ninja"
 		},
 		"paths" : 
@@ -10,31 +11,31 @@
 			"cmake" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
 			"cpack" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe",
 			"ctest" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe",
-			"root" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.15"
+			"root" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.19"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 15,
-			"patch" : 19101501,
-			"string" : "3.15.19101501-MSVC_2",
+			"minor" : 19,
+			"patch" : 20122902,
+			"string" : "3.19.20122902-MSVC_2",
 			"suffix" : ""
 		}
 	},
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-8e6e23602f8f101b978c.json",
+			"jsonFile" : "codemodel-v2-a7ff0126b10112d5964d.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 0
+				"minor" : 2
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-67e4a52aa26d55e56fa7.json",
+			"jsonFile" : "cache-v2-2edcfff56a73ff6176de.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -43,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-0c560c4142d7e2d63177.json",
+			"jsonFile" : "cmakeFiles-v1-767f9558fcd3ec2f1ddb.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -76,7 +77,7 @@
 				"responses" : 
 				[
 					{
-						"jsonFile" : "cache-v2-67e4a52aa26d55e56fa7.json",
+						"jsonFile" : "cache-v2-2edcfff56a73ff6176de.json",
 						"kind" : "cache",
 						"version" : 
 						{
@@ -85,7 +86,7 @@
 						}
 					},
 					{
-						"jsonFile" : "cmakeFiles-v1-0c560c4142d7e2d63177.json",
+						"jsonFile" : "cmakeFiles-v1-767f9558fcd3ec2f1ddb.json",
 						"kind" : "cmakeFiles",
 						"version" : 
 						{
@@ -94,12 +95,12 @@
 						}
 					},
 					{
-						"jsonFile" : "codemodel-v2-8e6e23602f8f101b978c.json",
+						"jsonFile" : "codemodel-v2-a7ff0126b10112d5964d.json",
 						"kind" : "codemodel",
 						"version" : 
 						{
 							"major" : 2,
-							"minor" : 0
+							"minor" : 2
 						}
 					}
 				]
