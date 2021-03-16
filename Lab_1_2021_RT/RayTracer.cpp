@@ -27,7 +27,7 @@ float3 SimpleRT::TraceRay(const Ray & ray, const std::vector<std::shared_ptr<Geo
     }
   }
 
-
+  // при отсутствие пересечения луча с объектом
   if (geoIndex == -1)
   {
     float3 unit_direction = normalize(ray.d);
